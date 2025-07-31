@@ -23,7 +23,7 @@ app.listen(1102, () => {
   console.log("Server Succesfully started");
 });
 
-app.get("/DogAndCatImg", (req, res) => {
+app.get("/", (req, res) => {
   res.render("MainFiles/index.ejs");
 });
 
