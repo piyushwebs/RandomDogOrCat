@@ -1,0 +1,120 @@
+* {
+  background-color: black;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/* Styling for Index page */
+.Index {
+  color: white;
+}
+
+
+.cont {
+  display: flex;
+  margin-left: 1rem;
+  width: 100vh;
+  height: max-content;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+
+.spanName {
+  color: yellow;
+  font-style: italic;
+  font-weight: 200;
+  text-decoration: underline;
+  animation: headingAnimation infinite ease-out 1s alternate;
+}
+
+
+@keyframes headingAnimation {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0rem 0.3rem 0.5rem yellow;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .cont {
+    display: block;
+  }
+  .dogCont {
+    margin-bottom: 5rem;
+  }
+}
+
+
+
+
+
+/* Styling for dog page */
+.mainCont {
+  color: white;
+}
+
+
+.heading {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+
+
+.cardCont{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left:25rem;
+ }
+
+ 
+.card{
+  border: none !important;
+  height: 40rem !important;
+  width: 50rem !important;
+  margin:  0.9375rem 0 !important;
+  color: white !important;
+  background-color: black !important;
+}
+
+
+.card-img-top{
+  height: 30rem !important;
+  width: 50rem !important;
+  
+}
+
+.card-title{
+  color: aqua !important;
+  text-decoration: underline !important;
+}
+
+span{
+  color:yellow;
+}
+
+
+.groupButtons{
+  display: flex;
+}
+
+
+.nextBtn
+{
+  margin-right: 2rem;
+}
+
+
+
+
+
